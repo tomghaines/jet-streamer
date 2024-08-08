@@ -13,7 +13,7 @@ const MapBox: React.FC = () => {
           zoom: 14,
         }}
         style={{ width: '100%', height: '100%' }}
-        mapStyle="mapbox://styles/mapbox/streets-v9"
+        mapStyle="mapbox://styles/tomhaines01/clzlh90ea000001qm18v28lth"
       />
     </div>
   )
