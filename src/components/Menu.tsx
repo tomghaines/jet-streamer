@@ -2,7 +2,7 @@ import MenuBtn from './MenuBtn'
 
 const Menu = () => {
   return (
-    <div className="bg-[#17171778] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl">
+    <div className="bg-[#000000c8] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl m-4 backdrop-blur-xl">
       <div className="flex justify-between mt-2 mb-5">
         <div>
           <span className="text-[#A8A8A8] font-thin">RADAR25</span>
@@ -13,7 +13,7 @@ const Menu = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col gap-4">
+      <div className="w-auto flex flex-col gap-4">
         <label htmlFor="search-inp"></label>
         <input
           name="search-inp"

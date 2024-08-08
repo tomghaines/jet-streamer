@@ -1,14 +1,14 @@
-import LeafletMap from './components/LeafletMap'
+import MapBox from './components/MapBox'
 import Menu from './components/Menu'
 
 function App() {
   return (
     <>
-      <div className="relative z-10">
+      <div className="w-96 relative z-20">
         <Menu />
       </div>
       <div>
-        <LeafletMap />
+        <MapBox />
       </div>
     </>
   )
