@@ -2,14 +2,14 @@ import MenuBtn from './MenuBtn'
 
 const Menu = () => {
   return (
-    <div className="bg-[#000000c8] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl m-4 backdrop-blur-xl">
+    <div className="bg-[#000000ab] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl m-4 backdrop-blur-lg">
       <div className="flex justify-between mt-2 mb-5">
         <div>
-          <span className="text-[#A8A8A8] font-thin">RADAR25</span>
+          <span className="text-[#d4d4d4] font-thin">RADAR25</span>
         </div>
         <div>
-          <span className="text-[#A8A8A8] font-medium">21:57</span>
-          <span className="text-[#A8A8A8] font-thin text-sm"> UTC</span>
+          <span className="text-white font-medium">21:57</span>
+          <span className="text-[#d4d4d4] font-thin text-sm"> UTC</span>
         </div>
       </div>
 
