@@ -1,3 +1,4 @@
+import LeafletMap from './components/LeafletMap'
 import Menu from './components/Menu'
 
 function App() {
@@ -5,6 +6,9 @@ function App() {
     <>
       <div>
         <Menu />
+      </div>
+      <div>
+        <LeafletMap />
       </div>
     </>
   )
