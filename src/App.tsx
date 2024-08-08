@@ -4,7 +4,7 @@ import Menu from './components/Menu'
 function App() {
   return (
     <>
-      <div>
+      <div className="relative z-10">
         <Menu />
       </div>
       <div>
