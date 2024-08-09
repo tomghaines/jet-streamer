@@ -54,7 +54,7 @@ const Menu = () => {
         <MenuBtn icon={cloudSunIcon} title="Weather" />
         <MenuBtn icon={stackIcon} title="Filters" />
       </div>
-      <div className="w-full">
+      <div className="mt-4 w-full">
         <MenuBtn icon={fadersHorizontalIcon} title="Settings" />
       </div>
     </div>
