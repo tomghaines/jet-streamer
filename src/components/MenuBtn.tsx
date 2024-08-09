@@ -9,7 +9,7 @@ interface Props {
 
 const MenuBtn = ({ icon, title, isLiveSVG, isLiveTxt }: Props) => {
   return (
-    <div className="gap-3 flex p-3 rounded-lg bg-[#151515]">
+    <div className="gap-3 flex p-3 rounded-lg bg-[#151515] items-center">
       <div>
         {typeof icon === 'string' ? (
           <img src={icon} alt={`${title} Icon`} />
@@ -17,7 +17,7 @@ const MenuBtn = ({ icon, title, isLiveSVG, isLiveTxt }: Props) => {
           icon
         )}
       </div>
-      <span className="text-white">{title}</span>
+      <span className="text-white align-middle">{title}</span>
       {isLiveSVG && isLiveTxt && (
         <div className="flex">
           <div>
