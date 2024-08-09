@@ -2,10 +2,11 @@ import MenuBtn from './MenuBtn'
 
 const Menu = () => {
   return (
-    <div className="bg-[#000000ab] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl m-4 backdrop-blur-lg">
-      <div className="flex justify-between mt-2 mb-5">
-        <div>
-          <span className="text-[#d4d4d4] font-thin">RADAR25</span>
+    <div className="bg-[#17171795] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl m-4 backdrop-blur-lg">
+      <div className="flex justify-between mb-4">
+        <div className="text-[#d4d4d4]">
+          <span className="font-medium">Jet</span>
+          <span className="font-thin">Streamer</span>
         </div>
         <div>
           <span className="text-white font-medium">21:57</span>
@@ -18,9 +19,9 @@ const Menu = () => {
         <input
           name="search-inp"
           id="search-inp"
-          className="border border-[#FFFFFF10] focus:border-[#FFFFFF25] focus:outline-none rounded-lg p-3 bg-black-pr"
+          className="bg-[#00000050] border border-[#FFFFFF10] focus:border-[#FFFFFF25] focus:outline-none rounded-lg p-3 placeholder-gray-500 font-thin"
           type="text"
-          placeholder="Search flights"
+          placeholder="Search flights, airports, and more"
         />
         <MenuBtn
           icon="i"

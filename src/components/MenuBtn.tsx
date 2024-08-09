@@ -9,7 +9,7 @@ interface Props {
 
 const MenuBtn = ({ icon, title, isLiveSVG, isLiveTxt }: Props) => {
   return (
-    <div className="gap-3 flex p-3 rounded-lg bg-zinc-950">
+    <div className="gap-3 flex p-3 rounded-lg bg-[#151515]">
       <div>{icon}</div>
       <span className="text-white">{title}</span>
       <div className="flex">
