@@ -8,6 +8,10 @@ const Menu = () => {
   const magnifyingGlassIcon = '../src/assets/icons/MagnifyingGlass.svg'
   const fadersHorizontalIcon = '../src/assets/icons/FadersHorizontal.svg'
 
+  const now = new Date()
+
+  const currentTime = `${now.getUTCHours()}:${now.getUTCMinutes()}`
+
   return (
     <div className="bg-[#17171795] p-4 justify-center flex flex-col w-96 items-stretch rounded-2xl m-4 backdrop-blur-lg">
       <div className="flex justify-between mb-4">
@@ -16,7 +20,7 @@ const Menu = () => {
           <span className="font-thin">Streamer</span>
         </div>
         <div>
-          <span className="text-white font-medium">21:57</span>
+          <span className="text-white font-medium">{currentTime}</span>
           <span className="text-[#d4d4d4] font-thin text-sm"> UTC</span>
         </div>
       </div>
